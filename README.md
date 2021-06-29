@@ -17,7 +17,7 @@
 15. Alert
 16. Refresher (https://ionicframework.com/docs/api/refresher)
 17. Reorder (https://ionicframework.com/docs/api/reorder)
-18. Floating action button(https://ionicframework.com/docs/api/fab)
+18. Floating action button(https://ionicframework.com/docs/api/fab) Tab bar
 19. Content(https://ionicframework.com/docs/api/content)
 20. Toolbar
 21. Segments(https://ionicframework.com/docs/api/segment) can be used as filters
@@ -57,5 +57,10 @@
 54. Payment Details form
 55. Calender
 <!-- https://blog.bitsrc.io/10-useful-react-components-for-2020-35fd6af56909 -->
-56.Video Player
-57.Image Gallery
+56. Video Player
+57. Image Gallery
+58. Hamburger Menu
+59. Kebab Menu
+60. Meatball menu (...) -> display limited items and other items are displayed by this menu
+61. SideBar
+62. Toolbar
