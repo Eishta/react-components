@@ -1,0 +1,66 @@
+{
+    "title": "Form",
+    "fields": [
+        {
+            "id": "english_name",
+            "type": "text",
+            "label": "Name",
+            "required": "true",
+            "value": "",
+            "placeholder": "Enter your name",
+            "helptext": ""
+        },
+        {
+            "id": "email",
+            "type": "email",
+            "label": "Email",
+            "required": "true",
+            "value": "",
+            "placeholder": "Enter your email",
+            "helptext": ""
+        },
+        {
+            "id": "employement",
+            "type": "select",
+            "label": "Employment",
+            "required": "true",
+            "value": "Part-time",
+            "helptext": "",
+            "options": [
+                {
+                    "label": "Full-Time",
+                    "value": "Full-Time"
+                },
+                {
+                    "label": "Part-Time",
+                    "value": "Part-Time"
+                }
+            ]
+        },
+        {
+            "id": "Tel",
+            "type": "tel",
+            "label": "Telephone",
+            "required": "true",
+            "value": "",
+            "placeholder": "Enter your telephone number",
+            "helptext": ""
+        },
+        {
+            "id": "driving_license",
+            "type": "checkbox",
+            "label": "I confirm to have Driviing license",
+            "required": "true",
+            "value": "checked"
+        },
+        {
+            "id": "identity",
+            "type": "text",
+            "label": "Driving License",
+            "required": "true",
+            "value": "",
+            "placeholder": "e.g. 012 345 678",
+            "helptext": ""
+        }
+    ]
+}

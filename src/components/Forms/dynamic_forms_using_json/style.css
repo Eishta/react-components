@@ -1,0 +1,7 @@
+.field {margin: 1rem;width: 100%;font-size: 1.5rem;}
+
+.container {font-family: sans-serif;}
+
+label {margin-right: 1.5rem;}
+
+.fields-container {display: grid;grid-template-columns: 1fr;}
