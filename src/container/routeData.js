@@ -6,6 +6,7 @@ import CustomForm from '../components/Forms/Hooks/useFormHook/Form';
 import CustomInputForm from '../components/Forms/Hooks/useInputHook/Form'
 import AccordianComp from '../components/AccordianComp/AccordianComp';
 import AlertContainer from '../components/AlertBox/AlertContainer';
+import ButtonContainer from '../components/Button/ButtonContainer';
 
 const routeData = {
     topNav: [
@@ -65,7 +66,7 @@ const routeData = {
         {
             path: '/home/button',
             title: 'button',
-            component: About
+            component: ButtonContainer
         },
         {
             path: '/home/Carousel',

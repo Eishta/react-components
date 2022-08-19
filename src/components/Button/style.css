@@ -1,0 +1,116 @@
+.bttn.btn-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    position: relative;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 1rem;
+    border: black;
+    color: white;
+    outline: none;
+    border-radius: 5px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+    min-width: 96px;
+    background-color: white;
+    user-select: none;
+    cursor: pointer;
+}
+
+.small {
+    font-size: 14px;
+}
+
+.medium {
+    font-size: 16px;
+}
+
+.large {
+    font-size: 18px;
+}
+
+.disabled {
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.562);
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.disabled:hover {
+    background-color: lightgray;
+    color: rgba(0, 0, 0, 0.562);
+    border: 1px solid rgba(0, 0, 0, 0.562);
+    ;
+}
+
+.basic {}
+
+.basic:hover {}
+
+.outlined {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+.outlined:hover {
+    color: white;
+}
+
+.link {
+    border: none;
+    text-decoration: underline;
+    color: blue;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.link:hover {
+    background-color: transparent;
+    color: rgb(13, 13, 90);
+}
+
+.primary {
+    color: white;
+    background-color: green;
+    border: green;
+}
+
+.primary:hover {}
+
+.secondary {
+    color: black;
+    background-color: grey;
+    border: grey;
+}
+
+.secondary:hover {
+    color: #eee;
+    background-color: rgb(89, 86, 86);
+}
+
+
+.danger {
+    color: #fff;
+    background-color: rgb(214, 69, 64);
+    border-color: rgb(214, 69, 64);
+}
+
+.danger:hover {
+    background-color: rgb(208, 50, 45);
+    border-color: rgb(208, 50, 45);
+}
+
+.warning {}
+
+.warning:hover {}
+
+.info {}
+
+.info:hover {}
