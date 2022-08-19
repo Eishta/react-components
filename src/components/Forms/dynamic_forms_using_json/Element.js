@@ -7,7 +7,6 @@ import { FormContext } from './FormContext';
 
 const Element = ({ field }) => {
     const { handleChange } = useContext(FormContext);
-    // console.log( handleChange)
     const renderElement = (field) => {
         switch (field.type) {
             case 'text':

@@ -1,0 +1,17 @@
+[
+    {
+        "id": "navlink1",
+        "link": "/",
+        "text": "Home"
+    },
+    {
+        "id": "navlink2",
+        "link": "/contact",
+        "text": "Contact"
+    },
+    {
+        "id": "navlink2",
+        "link": "/about",
+        "text": "About"
+    }
+]

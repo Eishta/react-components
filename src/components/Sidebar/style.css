@@ -1,0 +1,47 @@
+.sidebar {
+    flex-basis: 20%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.781);
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.sidebar.close{
+   display: none;
+}
+
+.icon{
+    line-height: 6rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    border-radius: 50%;
+    box-shadow: 0 1px 5px 1px rgb(0 0 0 / 40%);
+    font-size: 2rem;
+    font-family: sans-serif;
+    color: azure;
+    transition: all 0.3s ease;
+}
+.icon:hover{
+    transform: scale(1.1);
+    color: aqua;
+}
+.components-nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    text-align: left;
+    padding-left: 2rem;
+}
+.sidebar-links{
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.sidebar-links:hover{
+    color: aqua;
+}

@@ -1,0 +1,53 @@
+.acc-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    gap: 2rem;
+}
+
+.acc-item {
+    overflow: hidden;
+    width: 100%;
+    transition: all 0.8s ease;
+}
+
+.acc-label {
+    position: relative;
+    display: block;
+    text-align: left;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #262121ab;
+    background: #4cddac29;
+    box-shadow: 0 1px 5px 2px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.acc-label::after {
+    content: '+';
+    position: absolute;
+    right: 1rem;
+}
+
+.acc-content {
+    text-align: left;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #262121ab;
+    box-shadow: 0 1px 5px 2px rgb(0 0 0 / 20%);
+    cursor: pointer;
+    background: hwb(160 12% 71% / 0.161);
+    max-height: 100vh;
+    overflow: hidden;
+    display: none;
+    transition: all 0.8s ease;
+}
+
+.acc-item.open .acc-content {
+    display: block;
+    max-height: 100vh;
+}

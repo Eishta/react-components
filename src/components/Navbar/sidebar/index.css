@@ -1,0 +1,81 @@
+
+header {
+    background: rgb(19, 17, 17);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+    color: white;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.9);
+}
+
+nav {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.logo {
+    padding: 1rem;
+}
+
+.hamburger{
+    position: relative;
+    height: 20px;
+    width: 30px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.hamburger div{
+    position: absolute;
+    height: 1px;
+    width: 28px;
+    background: white;
+    transition: all 0.3s ease;
+}
+
+.hamburger div:nth-child(1){
+    top: 0;
+}
+.hamburger div:nth-child(2){
+    top: 50%;
+    transform: translateY(-50%);
+}
+.hamburger div:nth-child(3){
+    bottom: 0;
+}
+.hamburger.close div:nth-child(1){
+    transform: rotate(45deg);
+}
+.hamburger.close div:nth-child(2){
+    display: none;
+}
+.hamburger.close div:nth-child(3){
+    transform: rotate(-45deg);
+}
+@media screen and (max-width: 500px) {
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    ul{
+        flex-direction: column;
+        display: none;
+    }
+    ul li{
+        padding: 1rem;
+    }
+    ul.active{
+        display: flex;
+    }
+}
