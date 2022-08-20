@@ -10,6 +10,7 @@ import ButtonContainer from '../components/Button/ButtonContainer';
 import TabsContainer from '../components/Tabs/TabsContainer';
 import FolderStructure from '../components/FolderStructure';
 import CarouselContainer from '../components/Carousel/CarouselContainer';
+import ProgressContainer from '../components/ProgressBar/ProgressContainer';
 
 const routeData = {
     topNav: [
@@ -85,6 +86,11 @@ const routeData = {
             path: '/home/carousel',
             title: 'carousel',
             component: CarouselContainer
+        },
+        {
+            path: '/home/progressbar',
+            title: 'progressbar',
+            component: ProgressContainer
         }
     ]
 }
