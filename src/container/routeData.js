@@ -9,6 +9,7 @@ import AlertContainer from '../components/AlertBox/AlertContainer';
 import ButtonContainer from '../components/Button/ButtonContainer';
 import TabsContainer from '../components/Tabs/TabsContainer';
 import FolderStructure from '../components/FolderStructure';
+import CarouselContainer from '../components/Carousel/CarouselContainer';
 
 const routeData = {
     topNav: [
@@ -79,6 +80,11 @@ const routeData = {
             path: '/home/tabs',
             title: 'tabs',
             component: TabsContainer
+        },
+        {
+            path: '/home/carousel',
+            title: 'carousel',
+            component: CarouselContainer
         }
     ]
 }

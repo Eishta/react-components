@@ -1,0 +1,52 @@
+/* .App {
+    font-family: sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+.carousel {
+    position: relative;
+    height: 100vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 60vw;
+    object-fit: contain;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    color: white;
+    background-color: black;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
+
+.slide {
+    opacity: 0;
+    transition: all 0.4s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 3s;
+    transform: scale(1.1);
+}
