@@ -7,6 +7,8 @@ import CustomInputForm from '../components/Forms/Hooks/useInputHook/Form'
 import AccordianComp from '../components/AccordianComp/AccordianComp';
 import AlertContainer from '../components/AlertBox/AlertContainer';
 import ButtonContainer from '../components/Button/ButtonContainer';
+import TabsContainer from '../components/Tabs/TabsContainer';
+import FolderStructure from '../components/FolderStructure';
 
 const routeData = {
     topNav: [
@@ -69,14 +71,14 @@ const routeData = {
             component: ButtonContainer
         },
         {
-            path: '/home/Carousel',
-            title: 'carousel',
-            component: About
+            path: '/home/folderstructure',
+            title: 'folderstructure',
+            component: FolderStructure
         },
         {
-            path: '/home/checkbox',
-            title: 'checkbox',
-            component: Contact
+            path: '/home/tabs',
+            title: 'tabs',
+            component: TabsContainer
         }
     ]
 }

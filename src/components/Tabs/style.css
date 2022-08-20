@@ -1,0 +1,31 @@
+
+.tabsContainer {
+    display: flex;
+    gap: 1rem;
+}
+
+.tab {
+    padding: 4px 7px;
+    background-color: burlywood;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.tab:hover {
+    transform: scale(1.1);
+}
+
+.tab.isSelected {
+    background-color: darkgoldenrod;
+}
+
+.tab.disabled {
+    background-color: grey;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.tabPane {
+    padding: 2rem;
+    color: black;
+}

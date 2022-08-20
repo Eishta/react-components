@@ -1,0 +1,33 @@
+/* .App {
+    font-family: sans-serif;
+    display: felx;
+    flex-direction: column;
+    padding: 2rem;
+  } */
+
+.directory-item {
+    border: 1px solid black;
+    height: 2rem;
+    background-color: grey;
+    text-align: left;
+    transition: all 0.4s ease;
+}
+
+.directory-item[data-type="folder"] {
+    cursor: pointer;
+}
+
+.directory-item .dir-icon {
+    padding: 1rem;
+    background-color: "red";
+}
+
+.directory-item.disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+.directory-item.open {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+}
